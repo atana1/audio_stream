@@ -7,7 +7,7 @@ Reads audio stream from an audio input file and displays time-domain, frequency 
  gcc read_audio.c -o read_audio fft.h fft.c -Ilibav/include -Llibav/lib -lavformat -lavcodec
 -lavutil  -lz -lm -lpthread
 
- ./read_audio inputf:wqile
+ ./read_audio inputfile
 
 
 ## Note
